@@ -1,0 +1,28 @@
+.headerBox {
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 1000px;
+    text-align: center;
+}
+
+.headerposition {
+    display: inline-block;
+}
+
+.slide-fade-enter-active {
+    transition: all .8s;
+}
+
+.slide-fade-leave-active {
+    transition: all .8s;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to
+/* .slide-fade-leave-active for below version 2.1.8 */
+
+{
+    transform: translateY(10px);
+    opacity: 1;
+}

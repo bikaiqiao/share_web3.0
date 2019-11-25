@@ -1,0 +1,43 @@
+.inputBox {
+    position: relative;
+}
+
+.iconBox {
+    position: absolute;
+    right: -10%;
+    top: 5%;
+    z-index: 1;
+    .el-icon-error {
+        color: red;
+    }
+    .el-icon-success {
+        color: #32CD32;
+    }
+}
+
+.verifyCodeBox {
+    .verifyCodeInputBox {
+        width: 40%;
+        margin-left: 5%;
+    }
+    .verifyCodeImgBox {
+        img {
+            cursor: pointer;
+        }
+    }
+}
+
+.buttonBox {
+    clear: both;
+    .el-button {
+        width: 60%;
+        font-size: 100%;
+        color: white;
+        background-color: #32CD32;
+        &:hover {
+            background-color: #228B22;
+        }
+    }
+    text-align: center;
+    padding-top: 5%;
+}

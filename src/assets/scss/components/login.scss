@@ -1,0 +1,36 @@
+.checkBox {
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.forgetPassword {
+    a {
+        &:link,
+        &:visited {
+            text-decoration: none;
+            color: #1E90FF;
+        }
+        &:hover {
+            color: #1E64FF;
+        }
+    }
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.buttonBox {
+    clear: both;
+    .el-button {
+        width: 60%;
+        font-size: 100%;
+        color: white;
+        background-color: #1E90FF;
+        &:hover {
+            background-color: #1E64FF;
+        }
+    }
+    text-align: center;
+    padding-top: 5%;
+}

@@ -1,0 +1,58 @@
+.el-col {
+    height: 100%;
+}
+
+.el-main {
+    padding: 1%;
+}
+
+.imgBoxContainer {
+    height: 100%;
+}
+
+.imgBox {
+    width: 50%;
+    background: url('#{$img}/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
+.content {
+    margin-top: 20%;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: white;
+    // height: 50%;
+    border-radius: 3%;
+}
+
+.active {
+    border-bottom: 1px #1E90FF solid;
+    color: #1E90FF;
+}
+
+.swithBox {
+    font-size: 100%;
+    overflow: auto;
+}
+
+.leftSwitch {
+    float: left;
+    margin-left: 25%;
+    padding: 3% 5%;
+    cursor: pointer;
+}
+
+.rightSwitch {
+    float: right;
+    margin-right: 25%;
+    padding: 3% 5%;
+    cursor: pointer;
+}
+
+.inputBox {
+    margin: 5% auto 0;
+    width: 80%;
+}
