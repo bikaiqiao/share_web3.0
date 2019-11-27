@@ -11,7 +11,9 @@
       <router-link to="/" class="navElement">
         <el-menu-item index="1">首页</el-menu-item>
       </router-link>
-      <el-menu-item index="2">下载app</el-menu-item>
+      <router-link to="#" class="navElement">
+        <el-menu-item index="2">下载app</el-menu-item>
+      </router-link>
       <el-menu-item index="3">
         <i class="el-icon-zoom-in navIconPosition"></i>
         <el-input v-model="select" placeholder="搜索" style="width:70%"></el-input>

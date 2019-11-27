@@ -1,28 +1,27 @@
 .headerBox {
-    position: fixed;
-    right: 0;
-    left: 0;
     height: 1000px;
     text-align: center;
 }
 
-.headerposition {
-    display: inline-block;
+.fixed {
+    position: fixed;
+    // top: 0;
+    right: 0;
+    left: 0;
 }
 
 .slide-fade-enter-active {
-    transition: all .8s;
+    transition: all 1s;
 }
 
-.slide-fade-leave-active {
-    transition: all .8s;
-}
-
+// .slide-fade-leave-active {
+//     transition: all 1s;
+// }
 .slide-fade-enter,
 .slide-fade-leave-to
 /* .slide-fade-leave-active for below version 2.1.8 */
 
 {
-    transform: translateY(10px);
-    opacity: 1;
+    transform: translateY(5px);
+    opacity: 0;
 }
